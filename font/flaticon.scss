@@ -1,0 +1,113 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?6e5dcd5381ad2a93b8a12ceab9ac1f05") format("truetype"),
+url("./flaticon.woff?6e5dcd5381ad2a93b8a12ceab9ac1f05") format("woff"),
+url("./flaticon.woff2?6e5dcd5381ad2a93b8a12ceab9ac1f05") format("woff2"),
+url("./flaticon.eot?6e5dcd5381ad2a93b8a12ceab9ac1f05#iefix") format("embedded-opentype"),
+url("./flaticon.svg?6e5dcd5381ad2a93b8a12ceab9ac1f05#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "idea": "\f101",
+    "checked": "\f102",
+    "smile": "\f103",
+    "line-chart": "\f104",
+    "startup": "\f105",
+    "confetti": "\f106",
+    "tools-and-utensils": "\f107",
+    "rocket": "\f108",
+    "plus": "\f109",
+    "check": "\f10a",
+    "quotation": "\f10b",
+    "user": "\f10c",
+    "chat": "\f10d",
+    "arrow-up": "\f10e",
+    "flying-paper-plane": "\f10f",
+    "telephone-handle-silhouette": "\f110",
+    "envelope": "\f111",
+    "map-marker": "\f112",
+    "facebook": "\f113",
+    "instagram": "\f114",
+    "twitter": "\f115",
+    "settings": "\f116",
+);
+
+.flaticon-idea:before {
+    content: map-get($flaticon-map, "idea");
+}
+.flaticon-checked:before {
+    content: map-get($flaticon-map, "checked");
+}
+.flaticon-smile:before {
+    content: map-get($flaticon-map, "smile");
+}
+.flaticon-line-chart:before {
+    content: map-get($flaticon-map, "line-chart");
+}
+.flaticon-startup:before {
+    content: map-get($flaticon-map, "startup");
+}
+.flaticon-confetti:before {
+    content: map-get($flaticon-map, "confetti");
+}
+.flaticon-tools-and-utensils:before {
+    content: map-get($flaticon-map, "tools-and-utensils");
+}
+.flaticon-rocket:before {
+    content: map-get($flaticon-map, "rocket");
+}
+.flaticon-plus:before {
+    content: map-get($flaticon-map, "plus");
+}
+.flaticon-check:before {
+    content: map-get($flaticon-map, "check");
+}
+.flaticon-quotation:before {
+    content: map-get($flaticon-map, "quotation");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-chat:before {
+    content: map-get($flaticon-map, "chat");
+}
+.flaticon-arrow-up:before {
+    content: map-get($flaticon-map, "arrow-up");
+}
+.flaticon-flying-paper-plane:before {
+    content: map-get($flaticon-map, "flying-paper-plane");
+}
+.flaticon-telephone-handle-silhouette:before {
+    content: map-get($flaticon-map, "telephone-handle-silhouette");
+}
+.flaticon-envelope:before {
+    content: map-get($flaticon-map, "envelope");
+}
+.flaticon-map-marker:before {
+    content: map-get($flaticon-map, "map-marker");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-settings:before {
+    content: map-get($flaticon-map, "settings");
+}
