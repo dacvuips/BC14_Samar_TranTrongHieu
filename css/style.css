@@ -15,27 +15,13 @@ html {
 }
 
 :root {
-    --blue: #5543d1;
-    --indigo: #6610f2;
-    --purple: #6f42c1;
     --pink: #f5618e;
     --red: #ff586e;
-    --orange: #ff8853;
-    --yellow: #ffa808;
-    --green: #029e76;
-    --teal: #20c997;
-    --cyan: #17a2b8;
     --white: #fff;
     --gray: #636363;
     --gray-dark: #343a40;
     --primary: #7355f7;
-    --secondary: #1f2471;
-    --success: #029e76;
-    --info: #00aeff;
-    --warning: #fea500;
-    --danger: #ff5269;
     --light: #fffbf7;
-    --dark: #262F5A;
     --back: #262626;
 }
 
@@ -866,6 +852,10 @@ h4 {
     }
 }
 
+.work__hiden {
+    display: none;
+}
+
 
 /* SAY///////////////////////// */
 
@@ -1005,7 +995,7 @@ h4 {
 
 .say__item--pice-number {
     font-size: 50px;
-    color: var(--yellow);
+    color: #f8ae56;
     font-weight: 800;
 }
 
@@ -1164,7 +1154,7 @@ h4 {
     transition: all 1s;
 }
 
-.swiper-container .slider-pic .shape-bx:after {
+.swiper-container .swiper-slide-thumb-active .shape-bx:after {
     position: absolute;
     content: "";
     background-image: url(../img/pattern12.png);
@@ -1196,7 +1186,7 @@ h4 {
     transition: all 1s;
 }
 
-.swiper-container .slider-pic::before {
+.swiper-container .swiper-slide-thumb-active::before {
     position: absolute;
     bottom: 16px;
     content: "";
@@ -1207,7 +1197,7 @@ h4 {
     width: 15px;
 }
 
-.swiper-container .slider-pic::after {
+.swiper-container .swiper-slide-thumb-active::after {
     position: absolute;
     bottom: 0px;
     content: "";
